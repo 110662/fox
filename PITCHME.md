@@ -3,13 +3,13 @@
 これでスライドできるんだって。すごいね！！！
 ---
 
-# きつねかわいいよ2
+### きつねかわいいよ2
 
 gitpitch用のテストリポジトリだよ
 
 ---
 
-# グラフだよ1
+### グラフだよ1
 
 <canvas data-chart="line">
     Month, 1月, 2月, 3月, 4月, 5月, 6月, 7月
@@ -19,7 +19,7 @@ gitpitch用のテストリポジトリだよ
 
 ---
 
-# グラフだよ2
+### グラフだよ2
 
 <canvas data-chart="bar">
     Month, 1月, 2月, 3月, 4月, 5月, 6月, 7月
@@ -29,7 +29,7 @@ gitpitch用のテストリポジトリだよ
 
 ---
 
-# グラフだよ3
+### グラフだよ3
 
 <canvas data-chart="pie">
     Month, 1月, 2月, 3月, 4月, 5月, 6月, 7月
@@ -39,7 +39,7 @@ gitpitch用のテストリポジトリだよ
 
 ---
 
-# グラフだよ4
+### グラフだよ4
 
 <canvas data-chart="radar">
     Month, 1月, 2月, 3月, 4月, 5月, 6月, 7月
@@ -49,7 +49,7 @@ gitpitch用のテストリポジトリだよ
 
 ---
 
-# コードだよ
+### コードだよ
 
 ```
 class DecimalEncoder(json.JSONEncoder):
@@ -64,8 +64,9 @@ class DecimalEncoder(json.JSONEncoder):
 
 ---
 
-# 数式もいけるらしいよ
-
+### 数式もいけるらしいよ
+@@@
 $$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
-
+@@@
+---
 
