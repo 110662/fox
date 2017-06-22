@@ -3,13 +3,13 @@
 これでスライドできるんだって。すごいね！！！
 ---
 
-## きつねかわいいよ2
+# きつねかわいいよ2
 
 gitpitch用のテストリポジトリだよ
 
 ---
 
-### グラフだよ
+# グラフだよ
 
 <canvas data-chart="radar">
     Month, 1月, 2月, 3月, 4月, 5月, 6月, 7月
@@ -18,3 +18,16 @@ gitpitch用のテストリポジトリだよ
 </canvas>
 
 ---
+
+# コードだよ
+
+```
+class DecimalEncoder(json.JSONEncoder):
+    def default(self, o):
+        if isinstance(o, decimal.Decimal):
+            if o % 1 > 0:
+                return float(o)
+            else:
+                return int(o)
+        return super(DecimalEncoder, self).default(o)
+```
