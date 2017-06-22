@@ -3,3 +3,4 @@ highlight : monokai
 transition : fade
 charts : true
 slide-number: true
+footnote : "FoxTrack"
