@@ -4,3 +4,4 @@ transition : fade
 charts : true
 slide-number: true
 footnote : "FoxTrack"
+mathjax : TeX-AMS_HTML-full
